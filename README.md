@@ -72,6 +72,7 @@ The project employs the XGBoost algorithm for regression tasks. XGBoost is known
 The project evaluates model performance using metrics like Root Mean Squared Error and R-squared. The low RMSE scores indicate accurate predictive performance, but R-squared suggests potential overfitting.
 
 ![Results](./Images/Results.png)
+![Results1](./Images/Results1.png)
 
 ## Reflections
 
