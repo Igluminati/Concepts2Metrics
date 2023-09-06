@@ -31,9 +31,13 @@ Concepts2Metrics is a project aimed at leveraging tagged product concepts for da
 
 The project uses a dataset with limited data volume, containing only 717 rows. Small datasets can present challenges such as over-fitting and limited generalizability.
 
+![Source](./Images/Source.png)
+
 ### Data Preprocessing
 
 The dataset has sparsity and dominant binary columns. These characteristics require careful preprocessing and feature engineering.
+
+![Cleaning](./Images/Cleaning.png)
 
 ## Analysis
 
@@ -41,13 +45,19 @@ The dataset has sparsity and dominant binary columns. These characteristics requ
 
 The project includes exploratory data analysis to understand correlations between different data metrics. Notably, 'Distinctiveness' exhibits a negative relationship with other metrics.
 
+![EDA](./Images/EDA.png)
+
 ### Findings
 
 The findings indicate the need to treat 'Distinctiveness' differently from other metrics.
 
+![Findings](./Images/Findings.png)
+
 ### Feature Engineering
 
 Feature engineering involves dimensionality reduction using Principal Component Analysis (PCA). The project aims to filter out noise and irrelevant features, potentially leading to more accurate clusters.
+
+![FeatureEngineering](./Images/FeatureEngineering.png)
 
 ## Modeling
 
@@ -55,9 +65,13 @@ Feature engineering involves dimensionality reduction using Principal Component 
 
 The project employs the XGBoost algorithm for regression tasks. XGBoost is known for its accuracy and robustness. It sequentially trains trees, with each tree focusing on the mistakes of the previous ones.
 
+![Creation](./Images/Creation.png)
+
 ### Model Results
 
 The project evaluates model performance using metrics like Root Mean Squared Error and R-squared. The low RMSE scores indicate accurate predictive performance, but R-squared suggests potential overfitting.
+
+![Results](./Images/Results.png)
 
 ## Reflections
 
